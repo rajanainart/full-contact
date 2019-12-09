@@ -98,11 +98,11 @@ class RestClient
 			"X-FullContact-Version" => "2.0.5"
 	];
 	static $AUTH_KEYS = [
-			["X-FullContact-AccessToken" => "access-token1", "active" => "1"],//mine
-			["X-FullContact-AccessToken" => "access-token2", "active" => "1"],
-			["X-FullContact-AccessToken" => "access-token3", "active" => "1"],
-			["X-FullContact-AccessToken" => "access-token4", "active" => "1"],
-			["X-FullContact-AccessToken" => "access-token5", "active" => "1"] //mine			
+			["X-FullContact-AccessToken" => "your-access-token1", "active" => "1"],//mine
+			["X-FullContact-AccessToken" => "your-access-token2", "active" => "1"],
+			["X-FullContact-AccessToken" => "your-access-token3", "active" => "1"],
+			["X-FullContact-AccessToken" => "your-access-token4", "active" => "1"],
+			["X-FullContact-AccessToken" => "your-access-token5", "active" => "1"] //mine			
 	];
 	static $CurrentAuth = -1;
 	
